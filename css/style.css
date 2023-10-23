@@ -220,27 +220,21 @@ main .box-tre {
 main .box-tre .contenitore {
     max-width:1200px;
     margin:0 auto;
-    height:400px;
 }
 
 main .box-tre .row {
     width:100%;
     display:flex;
     flex-direction:row;
+    align-items:center;
 }
 
 main .box-tre .column-left {
     width:60%;
-    border:1px solid black;
-    background-color: lightskyblue;
-    height:400px;
 }
 
 main .box-tre .column-right {
     width:40%;
-    border:1px solid black;
-    background-color: lavender;
-    height:400px;
 }
 
 main .box-tre .content-left {
@@ -248,7 +242,7 @@ main .box-tre .content-left {
 }
 
 main .box-tre .content-right {
-
+    width:60%
 }
 
 main .box-quattro {
