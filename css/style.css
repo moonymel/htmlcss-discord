@@ -10,14 +10,23 @@ body {
 }
 
 input[type=button] {
-    padding:10px 20px;
     border:none;
     border-radius: 30px;
     font-weight: bold;
 }
 
+.white {
+    background-color: white;
+    color:black;
+}
+
 .black {
     background-color: black;
+    color:white;
+}
+
+.lavanda {
+    background-color:#8ea1e1;
     color:white;
 }
 
@@ -80,6 +89,7 @@ header .box-uno input[type=button] {
     background-color:white;
     color:black;
     font-size:15px;
+    padding:10px 20px;
 }
 
 header .box-due {
@@ -254,8 +264,7 @@ main .box-quattro {
 main .box-quattro .contenitore {
     max-width:1200px;
     margin:0 auto;
-    height:400px;
-    background-color: green;
+    margin-bottom:50px;
 }
 
 main .box-quattro .row {
@@ -265,12 +274,31 @@ main .box-quattro .row {
 
 main .box-quattro .column {
     width:100%;
-    background-color: green;
-    height:400px;
+    text-align:center;
 }
 
 main .box-quattro .content {
 
+}
+
+main .box-quattro img {
+    width:100%
+}
+
+main .box-quattro .testo-due {
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-size:30px;
+    font-weight: bold;
+    padding:20px 0;
+    line-height:2;
+}
+
+main input[type=button] {
+    font-size:20px;
+    padding:20px 30px;
+    margin:0 10px;
 }
 
 /* FOOTER!!!!!!!!!!! */
