@@ -23,7 +23,7 @@ header {
 
 header .box-uno {
     width:100%;
-    background-color: #3161e0;
+    background-color: #255ee9;
     padding:20px 0px;
 }
 
@@ -74,29 +74,51 @@ header .box-uno input[type=button] {
 
 header .box-due {
     width:100%;
-    background-color: blue;
-    padding:30px 0px;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    padding:110px 0px;
+    font-size:20px;
 }
 
 header .box-due .contenitore {
     max-width:991px;
     height:400px;
     margin:0 auto;
+    display:flex;
 }
 
 header .box-due .row {
     width:100%;
-    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 header .box-due .column {
     width:100%;
     background-color: pink;
-    height:400px;
 }
 
-header .box-due .content {
+header .titolo {
+    font-size:60px;
+    font-weight:bold;
+    margin:30px 0;
+}
 
+header .testo {
+    width:80%;
+    text-align:center;
+}
+
+header .bottoni input[type=button] {
+    font-size:20px;
+    padding:15px 30px;
+    margin:0 10px;
+}
+
+header .bottoni .black {
+    background-color: black;
+    color:white;
 }
 
 /* MAIN!!!!!!!!!! */
