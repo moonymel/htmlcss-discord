@@ -16,6 +16,11 @@ input[type=button] {
     font-weight: bold;
 }
 
+.black {
+    background-color: black;
+    color:white;
+}
+
 /* HEADER!!!!!!!  */
 header {
     color:white;
@@ -120,12 +125,17 @@ header .bottoni input[type=button] {
     margin:0 10px;
 }
 
-header .bottoni .black {
-    background-color: black;
-    color:white;
+/* MAIN!!!!!!!!!! */
+main {
+    color:black;
 }
 
-/* MAIN!!!!!!!!!! */
+main .titolo {
+    font-size:40px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
 main .box-uno {
     width:100%;
     background-color: white;
@@ -135,26 +145,21 @@ main .box-uno {
 main .box-uno .contenitore {
     max-width:1200px;
     margin:0 auto;
-    height:400px;
 }
 
 main .box-uno .row {
     width:100%;
     display:flex;
     flex-direction:row;
+    align-items:center;
 }
 
 main .box-uno .column-right {
     width:60%;
-    border:1px solid black;
-    background-color: lightskyblue;
-    height:400px;
 }
 
 main .box-uno .column-left {
     width:40%;
-    border:1px solid black;
-    background-color: lavender;
     height:400px;
 }
 
@@ -163,7 +168,7 @@ main .box-uno .content-right {
 }
 
 main .box-uno .content-left {
-
+    width:60%;
 }
 
 main .box-due {
