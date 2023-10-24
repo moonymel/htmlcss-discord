@@ -33,6 +33,11 @@ input[type=button] {
 .wave {
     width:100%;
     margin:0;
+    opacity:0.04
+}
+
+.rotate {
+    transform:rotateX(180deg)
 }
 
 /* HEADER!!!!!!!  */
@@ -151,9 +156,7 @@ main .titolo {
     margin-bottom:20px;
 }
 
-main .wave {
-    opacity:0.03
-}
+
 
 main .box-uno {
     width:100%;
@@ -362,7 +365,7 @@ footer .box-uno .column-left .testo img {
 }
 
 footer .box-uno .column-left .icone img {
-    width:25px;
+    width:50px;
     vertical-align: top;
 }
 
